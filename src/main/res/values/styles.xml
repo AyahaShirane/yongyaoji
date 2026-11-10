@@ -1,0 +1,143 @@
+<resources>
+<style name="LightTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+<item name="android:windowBackground">#f5f6f2</item>
+<item name="android:colorBackground">#f5f6f2</item>
+<item name="android:colorAccent">#216c5c</item>
+<item name="android:colorControlNormal">#596b65</item>
+<item name="android:colorControlActivated">#216c5c</item>
+<item name="android:colorControlHighlight">#e6f1ec</item>
+<item name="android:textColorPrimary">#21332f</item>
+<item name="android:textColorSecondary">#596b65</item>
+<item name="android:textColorHint">#596b65</item>
+<item name="android:textColor">#21332f</item>
+<item name="android:colorButtonNormal">#e6f1ec</item>
+<item name="android:navigationBarColor">#f5f6f2</item>
+<item name="android:statusBarColor">#f5f6f2</item>
+<item name="android:windowLightStatusBar">true</item>
+<item name="android:windowLightNavigationBar">true</item>
+<item name="android:alertDialogTheme">@style/LightTheme.Dialog</item>
+<item name="android:datePickerDialogTheme">@style/LightTheme.DateDialog</item>
+<item name="android:timePickerDialogTheme">@style/LightTheme.TimeDialog</item>
+<item name="android:windowActionModeOverlay">true</item>
+</style>
+<style name="LightTheme.Dialog" parent="android:style/Theme.Material.Light.Dialog.Alert">
+<item name="android:windowBackground">#f5f6f2</item>
+<item name="android:colorBackground">#f5f6f2</item>
+<item name="android:colorAccent">#216c5c</item>
+<item name="android:colorControlNormal">#596b65</item>
+<item name="android:colorControlActivated">#216c5c</item>
+<item name="android:colorControlHighlight">#e6f1ec</item>
+<item name="android:textColorPrimary">#21332f</item>
+<item name="android:textColorSecondary">#596b65</item>
+<item name="android:textColorHint">#596b65</item>
+<item name="android:textColor">#21332f</item>
+<item name="android:colorButtonNormal">#e6f1ec</item>
+<item name="android:navigationBarColor">#f5f6f2</item>
+<item name="android:statusBarColor">#f5f6f2</item>
+</style>
+<style name="LightTheme.DateDialog" parent="android:style/Theme.Material.Light.Dialog.Alert">
+<item name="android:windowBackground">#f5f6f2</item>
+<item name="android:colorBackground">#f5f6f2</item>
+<item name="android:colorAccent">#216c5c</item>
+<item name="android:colorControlNormal">#596b65</item>
+<item name="android:colorControlActivated">#216c5c</item>
+<item name="android:colorControlHighlight">#e6f1ec</item>
+<item name="android:textColorPrimary">#21332f</item>
+<item name="android:textColorSecondary">#596b65</item>
+<item name="android:textColorHint">#596b65</item>
+<item name="android:textColor">#21332f</item>
+<item name="android:colorButtonNormal">#e6f1ec</item>
+<item name="android:navigationBarColor">#f5f6f2</item>
+<item name="android:statusBarColor">#f5f6f2</item>
+<item name="android:datePickerStyle">@style/LightTheme.DatePicker</item>
+</style>
+<style name="LightTheme.TimeDialog" parent="android:style/Theme.Material.Light.Dialog.Alert">
+<item name="android:windowBackground">#f5f6f2</item>
+<item name="android:colorBackground">#f5f6f2</item>
+<item name="android:colorAccent">#216c5c</item>
+<item name="android:colorControlNormal">#596b65</item>
+<item name="android:colorControlActivated">#216c5c</item>
+<item name="android:colorControlHighlight">#e6f1ec</item>
+<item name="android:textColorPrimary">#21332f</item>
+<item name="android:textColorSecondary">#596b65</item>
+<item name="android:textColorHint">#596b65</item>
+<item name="android:textColor">#21332f</item>
+<item name="android:colorButtonNormal">#e6f1ec</item>
+<item name="android:navigationBarColor">#f5f6f2</item>
+<item name="android:statusBarColor">#f5f6f2</item>
+<item name="android:timePickerStyle">@style/LightTheme.TimePicker</item>
+</style>
+<style name="LightTheme.DatePicker" parent="android:style/Widget.Material.DatePicker"><item name="android:datePickerMode">spinner</item></style>
+<style name="LightTheme.TimePicker" parent="android:style/Widget.Material.TimePicker"><item name="android:timePickerMode">spinner</item></style>
+<style name="DarkTheme" parent="android:style/Theme.Material.NoActionBar">
+<item name="android:windowBackground">#101b18</item>
+<item name="android:colorBackground">#101b18</item>
+<item name="android:colorAccent">#91d3ba</item>
+<item name="android:colorControlNormal">#b3c4bb</item>
+<item name="android:colorControlActivated">#91d3ba</item>
+<item name="android:colorControlHighlight">#203f33</item>
+<item name="android:textColorPrimary">#e7eee9</item>
+<item name="android:textColorSecondary">#b3c4bb</item>
+<item name="android:textColorHint">#b3c4bb</item>
+<item name="android:textColor">#e7eee9</item>
+<item name="android:colorButtonNormal">#203f33</item>
+<item name="android:navigationBarColor">#101b18</item>
+<item name="android:statusBarColor">#101b18</item>
+<item name="android:windowLightStatusBar">false</item>
+<item name="android:windowLightNavigationBar">false</item>
+<item name="android:alertDialogTheme">@style/DarkTheme.Dialog</item>
+<item name="android:datePickerDialogTheme">@style/DarkTheme.DateDialog</item>
+<item name="android:timePickerDialogTheme">@style/DarkTheme.TimeDialog</item>
+<item name="android:windowActionModeOverlay">true</item>
+</style>
+<style name="DarkTheme.Dialog" parent="android:style/Theme.Material.Dialog.Alert">
+<item name="android:windowBackground">#101b18</item>
+<item name="android:colorBackground">#101b18</item>
+<item name="android:colorAccent">#91d3ba</item>
+<item name="android:colorControlNormal">#b3c4bb</item>
+<item name="android:colorControlActivated">#91d3ba</item>
+<item name="android:colorControlHighlight">#203f33</item>
+<item name="android:textColorPrimary">#e7eee9</item>
+<item name="android:textColorSecondary">#b3c4bb</item>
+<item name="android:textColorHint">#b3c4bb</item>
+<item name="android:textColor">#e7eee9</item>
+<item name="android:colorButtonNormal">#203f33</item>
+<item name="android:navigationBarColor">#101b18</item>
+<item name="android:statusBarColor">#101b18</item>
+</style>
+<style name="DarkTheme.DateDialog" parent="android:style/Theme.Material.Dialog.Alert">
+<item name="android:windowBackground">#101b18</item>
+<item name="android:colorBackground">#101b18</item>
+<item name="android:colorAccent">#91d3ba</item>
+<item name="android:colorControlNormal">#b3c4bb</item>
+<item name="android:colorControlActivated">#91d3ba</item>
+<item name="android:colorControlHighlight">#203f33</item>
+<item name="android:textColorPrimary">#e7eee9</item>
+<item name="android:textColorSecondary">#b3c4bb</item>
+<item name="android:textColorHint">#b3c4bb</item>
+<item name="android:textColor">#e7eee9</item>
+<item name="android:colorButtonNormal">#203f33</item>
+<item name="android:navigationBarColor">#101b18</item>
+<item name="android:statusBarColor">#101b18</item>
+<item name="android:datePickerStyle">@style/DarkTheme.DatePicker</item>
+</style>
+<style name="DarkTheme.TimeDialog" parent="android:style/Theme.Material.Dialog.Alert">
+<item name="android:windowBackground">#101b18</item>
+<item name="android:colorBackground">#101b18</item>
+<item name="android:colorAccent">#91d3ba</item>
+<item name="android:colorControlNormal">#b3c4bb</item>
+<item name="android:colorControlActivated">#91d3ba</item>
+<item name="android:colorControlHighlight">#203f33</item>
+<item name="android:textColorPrimary">#e7eee9</item>
+<item name="android:textColorSecondary">#b3c4bb</item>
+<item name="android:textColorHint">#b3c4bb</item>
+<item name="android:textColor">#e7eee9</item>
+<item name="android:colorButtonNormal">#203f33</item>
+<item name="android:navigationBarColor">#101b18</item>
+<item name="android:statusBarColor">#101b18</item>
+<item name="android:timePickerStyle">@style/DarkTheme.TimePicker</item>
+</style>
+<style name="DarkTheme.DatePicker" parent="android:style/Widget.Material.DatePicker"><item name="android:datePickerMode">spinner</item></style>
+<style name="DarkTheme.TimePicker" parent="android:style/Widget.Material.TimePicker"><item name="android:timePickerMode">spinner</item></style>
+<style name="AppTheme" parent="LightTheme"/>
+</resources>

@@ -1,0 +1,3 @@
+package cn.medreminder.app;
+import android.content.BroadcastReceiver;import android.content.Context;import android.content.Intent;
+public final class ConfirmReceiver extends BroadcastReceiver { public void onReceive(Context c,Intent i){long id=i.getLongExtra(Alarms.MED_ID,-1),rev=i.getLongExtra(Alarms.REVISION,-1),at=i.getLongExtra(Alarms.PLANNED_AT,-1);String key=i.getStringExtra(Alarms.OCCURRENCE);if(id<=0||rev<=0||at<=0||key==null||!Core.occurrence(id,rev,at).equals(key))return;Intent open=new Intent(c,MainActivity.class).putExtra(Alarms.MED_ID,id).putExtra(Alarms.REVISION,rev).putExtra(Alarms.PLANNED_AT,at).putExtra(Alarms.OCCURRENCE,key).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_SINGLE_TOP);c.startActivity(open);} }

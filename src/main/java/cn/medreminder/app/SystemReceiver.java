@@ -1,0 +1,3 @@
+package cn.medreminder.app;
+import android.content.BroadcastReceiver;import android.content.Context;import android.content.Intent;
+public final class SystemReceiver extends BroadcastReceiver { public void onReceive(Context c,Intent i){String a=i.getAction();if(Intent.ACTION_BOOT_COMPLETED.equals(a))Alarms.reschedule(c,"boot");else if("android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED".equals(a))Alarms.reschedule(c,"permission");else if(Intent.ACTION_TIME_CHANGED.equals(a)||Intent.ACTION_TIMEZONE_CHANGED.equals(a)||Intent.ACTION_MY_PACKAGE_REPLACED.equals(a))Alarms.reschedule(c,"system");} }

@@ -1,0 +1,23 @@
+# Local build output, dependencies, and credentials
+.env
+.env.*
+*.jks
+*.keystore
+*.pem
+*.key
+signing/
+build/
+dist/
+node_modules/
+*.apk
+*.idsig
+*.class
+*.log
+local.properties
+
+# Local host-test state
+.work*/
+
+# Python bytecode caches
+__pycache__/
+*.py[cod]
